@@ -13,7 +13,8 @@ Simple converter built with HTML, CSS, JavaScript.
 3. Click Convert
 
 ### Screenshot
-![Screenshot1](screenshot2.png)
+![Screenshot1](Screenshot1.png)
+![Screenshot2](Screenshot2.png)
 
 Live: Open index.html in browser
 Author: ZainAdilouw
