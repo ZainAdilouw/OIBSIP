@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Temperature Converter</title>
+<style>
+body{background:#fff;display:flex;justify-content:center;align-items:center;min-height:100vh;font-family:Arial}
+.box{border:2px solid #1976D2;border-radius:16px;padding:2rem;width:380px;text-align:center;box-shadow:0 8px 24px rgba(0,0,0,.1)}
+h1{color:#1976D2}
+input,select,button{width:100%;padding:12px;margin:8px 0;border-radius:8px;border:1px solid #ccc;box-sizing:border-box}
+button{background:#1976D2;color:white;border:none;font-weight:bold;cursor:pointer}
+#result{background:#E3F2FD;padding:12px;border-radius:8px;margin-top:12px;color:#0D47A1;font-weight:bold}
+</style>
+</head>
+<body>
+<div class="box">
+<h1>Temperature Converter</h1>
+<input id="tempInput" placeholder="Enter temperature" value="42">
+<select id="unitSelect"><option value="celsius">Celsius</option><option value="fahrenheit" selected>Fahrenheit</option><option value="kelvin">Kelvin</option></select>
+<button id="convertBtn">Convert</button>
+<div id="result"><div id="cOut">Celsius: --</div><div id="fOut">Fahrenheit: --</div><div id="kOut">Kelvin: --</div></div>
+<p id="error" style="color:red"></p>
+</div>
+<script>
+document.getElementById('convertBtn').addEventListener('click', function(){
+ var t=document.getElementById('tempInput').value;
+ var u=document.getElementById('unitSelect').value;
+ if(t===''||isNaN(t)){document.getElementById('error').textContent='Please enter a valid number';return;}
+ document.getElementById('error').textContent='';
+ var temp=parseFloat(t); var c,f,k;
+ if(u==='celsius'){c=temp;f=c*9/5+32;k=c+273.15;}
+ else if(u==='fahrenheit'){f=temp;c=(f-32)*5/9;k=c+273.15;}
+ else{k=temp;c=k-273.15;f=c*9/5+32;}
+ document.getElementById('cOut').textContent='Celsius: '+c.toFixed(2);
+ document.getElementById('fOut').textContent='Fahrenheit: '+f.toFixed(2);
+ document.getElementById('kOut').textContent='Kelvin: '+k.toFixed(2);
+});
+</script>
+</body>
+</html>
