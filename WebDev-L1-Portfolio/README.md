@@ -1,6 +1,6 @@
 # Portfolio - OIBSIP WebDev Level 1 Task 2
 
-Personal portfolio website for Zainab Adilou.
+Personal portfolio website for Zainab Adilu.
 
 Tech: HTML, CSS, JavaScript (Poppins font, responsive grid)
 
