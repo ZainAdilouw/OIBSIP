@@ -6,14 +6,14 @@
 
 **Objective:** To build a visually polished static landing page for a travel brand to learn HTML/CSS layout, responsiveness and branding.
 
-**Tools Used:** HTML5, CSS3, Google Fonts (Poppins), Unsplash images, VS Code, GitHub Pages.
+**Tools Used:** HTML5, CSS3, Lovable.dev, Google Fonts, Unsplash, VS Code, GitHub Pages
 
 **Steps Performed:**
-1. Designed layout with navbar, hero, destinations, why choose us, testimonials, footer
-2. Built structure with HTML5 semantic tags
-3. Styled with CSS3 Flexbox and Grid for responsiveness
-4. Added consistent color palette and typography
-5. Pushed to GitHub OIBSIP repo and hosted on GitHub Pages
+1. Created design brief for Zainab Travels
+2. Used Lovable.dev to generate base landing page structure
+3. Customized HTML/CSS manually - changed branding, added destinations, testimonials
+4. Made fully responsive with Flexbox/Grid
+5. Pushed to GitHub and hosted
 
 **Outcome:** A fully responsive landing page for "Zainab Travels" hosted live.
 
