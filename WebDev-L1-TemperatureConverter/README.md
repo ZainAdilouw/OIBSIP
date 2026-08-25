@@ -1,16 +1,20 @@
-# Temperature Converter - OASIS INFOBYTE Level 1 Task 3
+# Temperature Converter - OIBSIP WebDev Level 1 Task 3
 
-Simple converter built with HTML, CSS, JavaScript.
+**Objective:** To build an interactive tool that converts between Celsius, Fahrenheit and Kelvin with input validation.
 
-### Features
-- Converts between Celsius, Fahrenheit, Kelvin
-- Clean blue UI with validation
-- Instant result: e.g. 100°C = 212°F = 373.15K
+**Tools Used:** HTML5, CSS3, Vanilla JavaScript
 
-### How to use
-1. Enter temperature value
-2. Select From and To units
-3. Click Convert
+**Steps Performed:**
+1. Created input field and unit selectors
+2. Added conversion formulas in JavaScript
+3. Added validation for non-numeric and absolute zero error
+4. Styled with clean centred UI
+5. Deployed on GitHub Pages
+
+**Outcome:** Working converter that instantly converts e.g. 100°C = 212°F = 373.15K
+
+**How to use:**
+1. Enter value 2. Select From and To 3. Click Convert
 
 ### Screenshot
 ![Screenshot1](Screenshot1.png)
